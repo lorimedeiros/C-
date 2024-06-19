@@ -14,21 +14,6 @@ namespace PrimeiroProjeto
             this.C = C;
         }
 
-        public void setA(Double A) 
-        {
-            this.A = A;
-        }
-
-        public void setB(Double B)
-        {
-            this.B = B;
-        }
-
-        public void setC(Double C)
-        {
-            this.C = C;
-        }
-
         public Double calculaArea() 
         {
             double p = (A + B + C) / 2.0;
