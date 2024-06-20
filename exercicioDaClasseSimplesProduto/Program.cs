@@ -29,6 +29,16 @@ namespace PrimeiroProjeto
 
             Console.WriteLine(p);
 
+            // Podemos ler as propriedades
+            Console.WriteLine(p.Nome); // Produto Exemplo
+            Console.WriteLine(p.Preco); // 123.45
+            Console.WriteLine(p.Quantidade); // 10
+
+            // Não podemos modificar as propriedades diretamente fora da classe
+            // p.Nome = "Outro Produto"; // Isso resultará em um erro de compilação
+            
+            // Por outro lado, se eu for lá no atributo e retirar a palavra "private" de antes do set, eu posso sim alterar o valor dela
+
         }
     }
 }
